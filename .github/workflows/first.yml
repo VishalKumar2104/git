@@ -2,8 +2,8 @@ name: vishal
 on: workflow_dispatch
 
 jobs:
-vishal-job: 
-runs-on: ubuntu-latest
-steps:
- - name: Message
- run: echo " vishal"
+ vishal-job: 
+  runs-on: ubuntu-latest
+  steps:
+   - name: Message
+     run: echo " vishal"
